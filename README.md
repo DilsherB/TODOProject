@@ -78,8 +78,10 @@ In order to run this project you only need:
 ### Install
 
 To install this project in your local machine use
+> git clone https://github.com/DilsherB/TODOProject.git
 
-> npm i
+Then to run it live just write the following command in terminal
+> npm start
 
 ### Usage
 
