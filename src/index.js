@@ -27,7 +27,7 @@ const ui = () => {
         `;
     }
   });
-}
+};
 ui();
 const trash = document.querySelectorAll('.trash');
 const dots = document.querySelectorAll('.dots');
@@ -47,7 +47,6 @@ for (let i = 0; i < hideShow.length; i += 1) {
     localStorage.setItem('newTodo', JSON.stringify(toDoTasks));
     window.location.reload();
   });
-
 }
 
 export { toDoTasks, ui };
