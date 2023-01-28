@@ -29,7 +29,7 @@ const trash = document.querySelectorAll('.trash');
 const dots = document.querySelectorAll('.dots');
 const hideShow = document.querySelectorAll('.deleteIcon');
 
-for (let i = 0; i < hideShow.length; i+=1) {
+for (let i = 0; i < hideShow.length; i += 1) {
   hideShow[i].addEventListener('mouseover', () => {
     trash[i].classList.remove('hidden');
     dots[i].classList.add('hidden');
