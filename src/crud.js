@@ -5,7 +5,7 @@ document.querySelector('.fa-angle-down').addEventListener('click', () => {
   if (todoData.trim() === '') {
     return;
   }
-  toDoTasks.push({ description: `${todoData}`, completed: false, index: toDoTasks.length });
+  toDoTasks.push({ description: `${todoData}`, completed: false, index: toDoTasks.length+1 });
   localStorage.setItem('newTodo', JSON.stringify(toDoTasks));
   window.location.reload();
   document.querySelector('.newTodo').value = '';
