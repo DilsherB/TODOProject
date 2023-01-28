@@ -1,6 +1,6 @@
 import './style.css';
 import './crud.js';
-import './clearAll.js';
+import './clearAll';
 
 const toDoTasks = JSON.parse(localStorage.getItem('newTodo')) || [];
 const ui = () => {
@@ -60,6 +60,7 @@ for (let i = 0; i < hideShow.length; i += 1) {
     }
     localStorage.setItem('newTodo', JSON.stringify(toDoTasks));
   });
+
 }
 
-export default toDoTasks;
+export { toDoTasks };
