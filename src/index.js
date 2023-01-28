@@ -1,15 +1,15 @@
 import './style.css';
 
 const toDoTasks = [
-    {description: 'first task', completed: false, index: 1},
-    {description: 'second task', completed: false, index: 2},
-    {description: 'third task', completed: true, index: 3},
+    { description: 'first task', completed: false, index: 1 },
+    { description: 'second task', completed: false, index: 2 },
+    { description: 'third task', completed: true, index: 3 },
 ];
 
 
 const dynamicData = document.querySelector('.dynamicData');
 toDoTasks.forEach((task) => {
-    if(task.completed){
+    if (task.completed) {
         dynamicData.innerHTML += `
             <li class="deleteIcon"> 
                 <span><input type="checkbox" id="${task.index}" checked> 
@@ -30,7 +30,7 @@ const trash = document.querySelectorAll('.trash');
 const dots = document.querySelectorAll('.dots');
 const hideShow = document.querySelectorAll('.deleteIcon');
 
-for (let i=0; i<hideShow.length; i++) {
+for (let i = 0; i < hideShow.length; i++) {
     hideShow[i].addEventListener('mouseover', () => {
         trash[i].classList.remove('hidden');
         dots[i].classList.add('hidden');
