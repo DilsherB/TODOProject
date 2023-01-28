@@ -8,4 +8,5 @@ document.querySelector('.fa-angle-down').addEventListener('click', () => {
   toDoTasks.push({ description: `${todoData}`, completed: false, index: toDoTasks.length });
   localStorage.setItem('newTodo', JSON.stringify(toDoTasks));
   window.location.reload();
+  document.querySelector('.newTodo').value = '';
 });
