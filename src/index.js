@@ -1,5 +1,6 @@
 import './style.css';
 import './crud.js';
+import './clearAll';
 
 const toDoTasks = JSON.parse(localStorage.getItem('newTodo')) || [];
 const ui = () => {
@@ -9,7 +10,7 @@ const ui = () => {
       dynamicData.innerHTML += `
             <li class="deleteIcon"> 
                 <span><input type="checkbox" id="${task.index}" checked> 
-                    <span class="lm" contenteditable="true"> ${task.description}</span>
+                    <span class="lm strike" contenteditable="true"> ${task.description}</span>
                 </span>
                 <i class="fa-solid fa-ellipsis-vertical dots"></i>
                 <i class="fa-solid fa-trash-can trash hidden"></i>
@@ -32,6 +33,8 @@ ui();
 const trash = document.querySelectorAll('.trash');
 const dots = document.querySelectorAll('.dots');
 const hideShow = document.querySelectorAll('.deleteIcon');
+const checkBox = document.querySelectorAll('input[type="checkbox"]');
+const currentTask = document.querySelectorAll('.lm');
 
 for (let i = 0; i < hideShow.length; i += 1) {
   hideShow[i].addEventListener('mouseover', () => {
@@ -47,6 +50,17 @@ for (let i = 0; i < hideShow.length; i += 1) {
     localStorage.setItem('newTodo', JSON.stringify(toDoTasks));
     window.location.reload();
   });
+  checkBox[i].addEventListener('input', () => {
+    if (toDoTasks[i].completed) {
+      toDoTasks[i].completed = false;
+      currentTask[i].classList.remove('strike');
+    } else {
+      toDoTasks[i].completed = true;
+      currentTask[i].classList.add('strike');
+    }
+    localStorage.setItem('newTodo', JSON.stringify(toDoTasks));
+  });
+
 }
 
-export { toDoTasks, ui };
+export { toDoTasks };

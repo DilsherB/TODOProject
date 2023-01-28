@@ -71,3 +71,7 @@ div:hover {
   color: black;
   cursor: pointer;
 }
+
+.strike {
+  text-decoration: line-through;
+}
