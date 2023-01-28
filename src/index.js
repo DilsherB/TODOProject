@@ -60,7 +60,6 @@ for (let i = 0; i < hideShow.length; i += 1) {
     }
     localStorage.setItem('newTodo', JSON.stringify(toDoTasks));
   });
-  
 }
 
 export { toDoTasks }; // eslint-disable-line
