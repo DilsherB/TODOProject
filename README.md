@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Webpack setup boilerplate</b></h3>
+  <h3><b>TO Do List</b></h3>
 
 </div>
 
@@ -48,11 +48,10 @@
 
  <li>Boilerplate for webpack</li>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p><!-- LIVE DEMO -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
->
+## 🚀 Live Demo <a href="https://dilsherb.github.io/TODOProject/dist/" name="live-demo"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,11 +59,12 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> to run on your localhost just copy the whole project and open index.html in your browser.
+> to run on your localhost just copy the whole project and open type following command in terminal.
+- npm start
 
 ### Setup
 
-> <p> git clone https://github.com/DilsherB/webpack-demo</p>
+> <p> git clone https://github.com/DilsherB/TODOProject.git</p>
 > cd webpack-demo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -103,7 +103,7 @@ To install this project in your local machine use
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/DilsherB/webpack-demo/issues).
+Feel free to check the [issues page](https://github.com/DilsherB/TODOProject/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- SUPPORT -->
