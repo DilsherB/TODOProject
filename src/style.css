@@ -40,6 +40,7 @@ input[type='text'] {
   border: none;
   height: 30px;
   width: 95%;
+  font-size: large;
 }
 
 input[type='text']:focus {
@@ -48,6 +49,12 @@ input[type='text']:focus {
 
 span:focus {
   outline: none;
+}
+
+.fa-angle-down {
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
 }
 
 .hidden {
@@ -63,4 +70,8 @@ div:hover {
   text-decoration: underline;
   color: black;
   cursor: pointer;
+}
+
+.strike {
+  text-decoration: line-through;
 }
