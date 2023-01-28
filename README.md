@@ -30,7 +30,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Webpack boilerplate <a name="about-project"></a>
+# 📖 TO DO LIST <a name="about-project"></a>
 
 > This repo serves as a webpack boilerplate setup
 
@@ -46,7 +46,7 @@
 
 ### Key Features <a name="key-features"></a>
 
- <li>Boilerplate for webpack</li>
+ <li>To Do List</li>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE DEMO -->
