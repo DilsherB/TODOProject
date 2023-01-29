@@ -29,7 +29,7 @@ const ui = () => {
     }
   });
 };
-toDoTasks.forEach((e, i) => e.index = i+1); // re-asign index to remaining items.
+toDoTasks.forEach((e, i) => { e.index = i + 1; }); // re-asign index to remaining items
 ui();
 const trash = document.querySelectorAll('.trash');
 const dots = document.querySelectorAll('.dots');
@@ -62,10 +62,10 @@ for (let i = 0; i < hideShow.length; i += 1) {
     localStorage.setItem('newTodo', JSON.stringify(toDoTasks));
   });
   currentTask[i].addEventListener('keydown', (e) => {
-      if(e.code === 'Enter'){
-        toDoTasks[i].description = currentTask[i].innerHTML;
-        localStorage.setItem('newTodo', JSON.stringify(toDoTasks));
-          window.location.reload();
+    if (e.code === 'Enter') {
+      toDoTasks[i].description = currentTask[i].innerHTML;
+      localStorage.setItem('newTodo', JSON.stringify(toDoTasks));
+      window.location.reload();
     }
   });
 }

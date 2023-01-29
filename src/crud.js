@@ -13,5 +13,5 @@ const addItem = () => {
 
 document.querySelector('.fa-angle-down').addEventListener('click', addItem);
 document.querySelector('.newTodo').addEventListener('keydown', (e) => {
-  if(e.code === 'Enter'){(addItem())};
+  if (e.code === 'Enter') { (addItem()); }
 });
