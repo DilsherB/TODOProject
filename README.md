@@ -32,7 +32,10 @@
 
 # 📖 TO DO LIST <a name="about-project"></a>
 
-> This repo serves as a webpack boilerplate setup
+> This repo serves to manage your day to day task by doing the following:
+1. Add a task.
+2. delete a task
+3. even you can edit your task.
 
 ## 🛠 Built With <a name="built-with"> </a>
 
@@ -78,8 +81,10 @@ In order to run this project you only need:
 ### Install
 
 To install this project in your local machine use
+> npm install.
 
-> npm i
+Then to run it live just write the following command in terminal
+> npm start
 
 ### Usage
 
@@ -121,3 +126,8 @@ Feel free to check the [issues page](https://github.com/DilsherB/TODOProject/iss
 > I would like to thank Microverse team
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- License -->
+
+## 📝 License
+This project is MIT licensed.
