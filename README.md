@@ -32,7 +32,7 @@
 
 # 📖 TO DO LIST <a name="about-project"></a>
 
-> This repo serves as a webpack boilerplate setup
+> It is a "To do tasks" project in which you can add, update, delete and delete all selected/completed.
 
 ## 🛠 Built With <a name="built-with"> </a>
 
@@ -40,7 +40,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> HTML 5 , css3, javascript ES6, NPM and webpack
+> HTML 5 , css3, javascript ES6 and webpack
 
 <!-- Features -->
 
@@ -51,7 +51,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a href="https://dilsherb.github.io/TODOProject/dist/" name="live-demo"></a>
+## 🚀 Click to see "Live Demo" <a href="https://dilsherb.github.io/TODOProject/dist/" name="live-demo"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,13 +59,13 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> to run on your localhost just copy the whole project and open type following command in terminal.
+> to run on your localhost just copy the whole project, open it and type the following command in terminal.
 - npm start
 
 ### Setup
 
 > <p> git clone https://github.com/DilsherB/TODOProject.git</p>
-> cd webpack-demo
+> cd TODOProject
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +97,7 @@ To install this project in your local machine use
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> 
+> Completed
 
 ## 🤝 Contributing <a name="contributing"></a>
 
