@@ -13,10 +13,8 @@ main {
   background-color: white;
   box-shadow: 0 0 20px rgb(145, 144, 144);
   width: 500px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 5px auto 0 auto;
+  border-radius: 5px;
 }
 
 li {
