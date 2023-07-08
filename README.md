@@ -43,7 +43,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> HTML 5 , css3, javascript ES6, NPM and webpack
+> HTML 5 , css3, javascript ES6 and webpack
 
 <!-- Features -->
 
@@ -54,7 +54,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a href="https://dilsherb.github.io/TODOProject/dist/" name="live-demo"></a>
+## 🚀 Click to see "Live Demo" <a href="https://dilsherb.github.io/TODOProject/dist/" name="live-demo"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,13 +62,13 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> to run on your localhost just copy the whole project and open type following command in terminal.
+> to run on your localhost just copy the whole project, open it and type the following command in terminal.
 - npm start
 
 ### Setup
 
 > <p> git clone https://github.com/DilsherB/TODOProject.git</p>
-> cd webpack-demo
+> cd TODOProject
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,7 +102,7 @@ Then to run it live just write the following command in terminal
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> 
+> Completed
 
 ## 🤝 Contributing <a name="contributing"></a>
 
